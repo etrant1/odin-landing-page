@@ -40,7 +40,7 @@ nav a {
 /* === Hero Section Styling === */
 
 .hero {
-    padding: 16px 240px;
+    padding: 16px 480px;
     padding-bottom: 144px;
 }
 
@@ -92,6 +92,7 @@ nav a {
 .card {
     width: 155px;
     text-align: center;
+    color: #1f2937;
 }
 
 .card_img {
@@ -107,6 +108,30 @@ nav a {
     justify-content: center;
     gap: 16px;
     margin-bottom: 72px;
+}
+
+/* === Quote Section Styling === */
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_content {
+    padding: 72px;
+    width: 800px;
+}
+
+.quote_text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;    
 }
 
 /* === Footer Styling === */
