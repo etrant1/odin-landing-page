@@ -9,11 +9,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-    color: #f9faf8;
 }
 
 .hero, footer {
     background-color: #1f2937;
+}
+
+footer, nav a, .logo, .hero_img {
+    color: #f9faf8;
 }
 
 /* === Header & Nav Styling === */
@@ -26,13 +29,11 @@ header {
 
 nav a {
     text-decoration: none;
-    color: #f9faf8;
     margin-right: 16px;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
     font-weight: bold;
 }
 
@@ -82,8 +83,31 @@ nav a {
 }
 
 /* === Info Section Styling === */
+.info h2 {
+    text-align: center;   
+    font-size: 38px;
+    font-weight: 900;
+    margin: 48px 0;
+}
+.card {
+    width: 155px;
+    text-align: center;
+}
 
+.card_img {
+    border: 4px solid #3382f6;
+    height: 144px;
+    width: auto;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 72px;
+}
 
 /* === Footer Styling === */
 
