@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: #f9faf8;
+}
+
+.hero, footer {
+    background-color: #1f2937;
+}
+
+/* === Header & Nav Styling === */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9faf8;
+    margin-right: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* === Hero Section Styling === */
+
+.hero {
+    padding: 16px 240px;
+    padding-bottom: 144px;
+}
+
+.hero_container {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 225px;
+    background-color: grey;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 350px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    margin-bottom: 8px;
+}
+
+.hero_content button {
+    background-color: #3382f6;
+    display: block;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 8px;
+    color:#f9faf8;
+    font-weight: bold;
+}
+
+/* === Info Section Styling === */
+
+
+
+/* === Footer Styling === */
+
+footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
