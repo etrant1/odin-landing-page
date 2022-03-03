@@ -134,6 +134,35 @@ nav a {
     text-align: end;    
 }
 
+/* === CTA Section Styling === */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 96px 0;
+
+}
+
+.cta_modal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3382f6;
+    color: #f9faf8;
+    width: 750px;
+    padding: 48px 96px;
+    border-radius: 8px;
+}
+
+.cta_modal_btn {
+    padding: 8px 40px;
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 /* === Footer Styling === */
 
 footer {
